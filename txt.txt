@@ -2,20 +2,33 @@ Data 30/07/2024
 Nome: William
 Atividade: Sequencia logica de esocovar os dentes 
 
-Pego a escova de dentes
-Pego a pasta
-Abro a tampa da pasta 
-Aperto a pasta de baixo para cima
-Passo a pasta na escova 
-Fecho a pasta de dente
-Deixo a pasta em cima do balcão
-Ligo a torneira
-Molho a escova 
-Fecho a torneira
-Levo a escova até a boca 
-Faço movimentos circulares entre os dentes
-Retiro a escova da boca 
-Ligo a torneira 
-Lavo a boca e a escova
-Seco a boca na toalha 
-Guardo a escova
+
+Acordo;
+Levanto da cama;
+Vou em direção ao banheiro;
+Abro a porta do banheiro;
+Acendo a luz; 
+Fecho a porta;
+Pego a escova de dentes com a mão direita;
+Largo a escova no balcão;
+Pego a pasta com a mão esquerda;
+Abro a tampa da pasta com a mão direita; 
+Aperto a pasta de baixo para cima;
+Pego novamente a escova;
+Passo a pasta na escova;
+Deixo a escova sobre o balcão; 
+Fecho a pasta de dente;
+Deixo a pasta em cima do balcão;
+Ligo a torneira;
+Molho a escova; 
+Fecho a torneira;
+Levo a escova até a boca com a mão direita; 
+Faço movimentos circulares entre os dentes;
+Retiro a escova da boca; 
+Ligo a torneira com a mão esquerda;
+Lavo a boca e a escova;
+Seco a boca e a escova na toalha; 
+Guardo a escova; 
+Abro a porta do banheiro;
+Desligo a luz; 
+E fecho a porta;
