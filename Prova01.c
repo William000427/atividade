@@ -17,7 +17,7 @@ int main() {
     int numInt1, numInt2;
     
     do {
-        printf("Divisão:\n");
+        printf("divisão:\n");
         printf("0. Sair\n");
         printf("1. Soma\n");
         printf("2. Subtracao\n");
@@ -29,12 +29,12 @@ int main() {
         printf("8. MDC\n");
         printf("9. MMC\n");
         printf("10. Equacao de Segundo Grau\n");
-        printf("Soma: ");
+        printf("soma: ");
         scanf("%d", &opcao);
 
         switch(opcao) {
             case 0:
-                printf("Saindo...\n");
+                printf("saindo\n");
                 break;
             case 1:
                 printf("14");
@@ -69,7 +69,7 @@ int main() {
                     resultado = divisao(num1, num2);
                     printf("Resultado: %.5lf / %.5lf = %.5lf\n", num1, num2, resultado);
                 } else {
-                    printf("Erro: Divisao por zero.\n");
+                    printf("Erro: divisao por zero.\n");
                 }
                 break;
             case 5:
@@ -97,7 +97,7 @@ int main() {
                     resultado = fatorial(numInt1);
                     printf("Resultado: %d! = %d\n", numInt1, (int)resultado);
                 } else {
-                    printf("Erro: Fatorial de numero negativo.\n");
+                    printf("Erro: Fatorial numero negativo.\n");
                 }
                 break;
             case 8:
@@ -126,7 +126,7 @@ int main() {
                 equacaoSegundoGrau(num1, num2, resultado);
                 break;
             default:
-                printf("Opcao invalida. Tente novamente.\n");
+                printf("Opcao invalida. tente novamente.\n");
         }
     } while (opcao != 0);
 
@@ -195,6 +195,6 @@ void equacaoSegundoGrau(double a, double b, double c) {
         double x = -b / (2 * a);
         printf("Raiz unica: x = %.5lf\n", x);
     } else {
-        printf("Nao existem raizes reais.\n");
+        printf("Não existem raizes reais.\n");
     }
 }
