@@ -1,18 +1,20 @@
 #include <stdio.h>
 
 int main() {
-    int valor, i;
-    int contPares = 0;
+    int valores[5];
+    int i, contar = 0;
 
     for (i = 0; i < 5; i++) {
-        printf("3: ");
+        scanf("%d", &valores[i]);
+    }
 
-        if (valor % 2 == 0) {
-            contPares++;
+    for (i = 0; i < 5; i++) {
+        if (valores[i] % 2 == 0) {
+            contar++;
         }
     }
 
-    printf("2: %d\n", contPares);
+    printf("%d valores pares\n", contar);
 
     return 0;
 }
