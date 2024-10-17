@@ -1,0 +1,28 @@
+1)Cou suas palavras explique o que é um banco de dados.
+R: Banco de dados são informações armazenadas em um computador.
+
+2)Diferencie dado de informação.
+R: Dados são representados por números etc, já informação é a junção de dados.
+
+
+3)Descreva a função de um SGBD e site vantagens e desvantagens conforme visto em sala.
+R: Algumas vantagens do SGBD são mais segurança, mais rapidez, menos redução de esforço.
+Algumas desvantagens são falta de análise, falta de necessidade etc.
+
+
+4)O que é banco de dados relacional e como ele funciona. Evidêncie a diferenca desse modelo em relação aos outros modelos
+existentes.
+R: Banco de dados relacional foi projetado para resolver problemas de várias estruturas de dados arbitrárias.
+Banco de dados relacional seria mais usado para fazer buscas mais rápidas, já outros bancos de dados seria mais utilizado
+para aplicações de alta escala.
+
+5)Cou base no modelo de banco de dados relacional forneça um exemplo de duas tabelas com suas tuplas e atributos e o 
+relacionamento existente entre elas.
+R:   
+_______________________
+NOME  |CPF  |DataNasc  |
+______|_____|__________|
+Renata|01035|12/11/1980|
+Vânia |02467|03/07/1976|
+Maria |01427|20/02/1985|
+_______________________|
