@@ -1,0 +1,26 @@
+CREATE TABLE chat(
+	id_chat serial 	PRIMARY KEY,
+	nome varchar(20),
+	msg varchar(280)
+);
+
+DROP TABLE chat
+
+SELECT * FROM chat;
+
+INSERT INTO chat  (nome, msg) VALUES ('Kevin', 'Ola me chamo Kevin');
+INSERT INTO chat  (nome, msg) VALUES ('Vagner', 'Ola me chama Vagner');
+INSERT INTO chat  (nome, msg) VALUES ('Gabriel', 'Ola me chamo Gabriel');
+INSERT INTO chat  (nome, msg) VALUES ('Larissa', 'Ola me chamo Larissa');
+INSERT INTO chat  (nome, msg) VALUES ('Arthur Siega', 'Ola me chamo Arthur Siega');
+INSERT INTO chat  (nome, msg) VALUES ('Domini', 'Ola me chamo Domini ');
+INSERT INTO chat  (nome, msg) VALUES ('Gustavo', 'Ola me chamo Gustavo');
+INSERT INTO chat  (nome, msg) VALUES ('william', 'Ola me chamo William');
+INSERT INTO chat  (nome, msg) VALUES ('Evelyn', 'Ola me chamo Evelyn');
+INSERT INTO chat  (nome, msg) VALUES ('Arthur Oliveira', 'Ola me chamo Arthur Oliveira');
+INSERT INTO chat  (nome, msg) VALUES ('Aghata', 'Ola me chamo Aghata');
+INSERT INTO chat  (nome, msg) VALUES ('Maria', 'Ola me chamo Maria');
+
+UPDATE chat SET nome = 'William' , msg = 'Teste';
+
+DELETE FROM chat WHERE 	id_chat = 1;

@@ -1,0 +1,26 @@
+CREATE TABLE disciplina(
+	codigo_disciplina serial PRIMARY KEY,
+	nome_disciplina varchar(20)
+)
+
+CREATE TABLE professores(
+	telefone_professor bigint,
+	matricula_professor serial PRIMARY KEY,
+	cpf_professor bigint,
+	nome_professor varchar(10)
+	data_nasc_professor date,
+	endereco_professor varchar (10)
+)
+
+SELECT * FROM 
+
+INSERT INTO 
+INSERT INTO disciplina (nome_disciplina) VALUES ('Portugues');
+INSERT INTO disciplina (nome_disciplina) VALUES ('Matematica');
+INSERT INTO disciplina (nome_disciplina) VALUES ('Quimica');
+INSERT INTO disciplina (nome_disciplina) VALUES ('Biologia');
+INSERT INTO disciplina (nome_disciplina) VALUES ('Educação Física');
+													
+													
+
+	
